@@ -1,1 +1,0 @@
-# 96230-senai_logica
