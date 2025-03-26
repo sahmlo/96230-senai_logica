@@ -14,7 +14,7 @@ while True:
     # else:
     #     contador += 1
     #     soma =+ nota
-# Evite divisão pr zero.
+# Evite divisão por zero.
     # if contador == 0:
     #     soma = nota
     #     contador = 1
