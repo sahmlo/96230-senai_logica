@@ -13,6 +13,9 @@ Código \t Prato \t\t\t Valor
 5 \t Pão com ovo \t\t R$ 5,00
 
 Digite a opção desejada: """))
+    if opcao == 0:
+        print(f"\nPedido encerrado. O valor total é R$ {soma:.2f}")
+        break
     match opcao:
         case 1:
             prato = "Picanha"
@@ -34,7 +37,7 @@ Digite a opção desejada: """))
             preco = 0
     soma += preco
     continuar = input("Deseja informa outro prato? (S/N): ").lower()
-    if continuar == "n":
+    if continuar == "0":
         break
 
 print(f"\nTotal a pagar: R$ {soma}")
