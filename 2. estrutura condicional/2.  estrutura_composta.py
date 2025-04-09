@@ -10,5 +10,3 @@ else:
 
     
 print("== FIM ==")
-
-

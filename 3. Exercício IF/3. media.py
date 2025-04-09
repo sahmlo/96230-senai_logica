@@ -23,4 +23,3 @@ if media < 7:
     print("Reprovado!")
 else:
     print("Aprovado!")
-

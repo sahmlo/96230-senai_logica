@@ -7,5 +7,3 @@ if idade < 18:
     print("Acesso Negado.")
 
 print("== FIM ==")
-
-
