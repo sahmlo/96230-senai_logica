@@ -24,4 +24,3 @@ else:
     print (f"Segundo número {segundo_numero}")
     print (f"MAIOR: {maior}")
     print (f"MENOR: {menor}")
-    

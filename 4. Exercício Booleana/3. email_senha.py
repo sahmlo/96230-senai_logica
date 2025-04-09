@@ -17,6 +17,3 @@ if login == login_cadastrado and senha == senha_cadastrada:
     print("Bem Vindo!")
 else: 
     print("Login ou senha inválidos.")
-
-
-
