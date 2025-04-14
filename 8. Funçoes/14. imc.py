@@ -24,8 +24,9 @@ def imc (calculo_peso_altura):
     else:
         "Erro! Calcule novamente o IMC"
 
-resultado = altura_peso (peso,altura)
-classificacao = imc (resultado)
+resultado_final = altura_peso (peso,altura)
+classificacao = imc (resultado_final)
 
-print(f"Seu IMC é: {resultado:.2f}")
+print("\n === Resultado do IMC ===")
+print(f"Seu IMC é: {resultado_final:.2f}")
 print(f"{classificacao}")
