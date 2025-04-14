@@ -23,3 +23,4 @@ print(f"\nPrimeiro número: {primeiro_numero}")
 print(f"Operação: {operador}")
 print(f"Segundo número: {segundo_numero}")
 print(f"Resultado: {resultado}")
+

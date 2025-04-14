@@ -22,4 +22,3 @@ match dia:
         print("Sábado é um dia util")
     case _:
         print("Opção Inválida.")
-#SAIDA
