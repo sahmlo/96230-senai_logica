@@ -14,7 +14,7 @@ def pares_impares(lista):
             impares += 1
     return pares, impares
 for i in range(QUANTIDADE_NUMEROS):
-    numero = int(input(f"Digite o {i+1}º número: "))
+    numero = int(input(f"\nDigite o {i+1}º número: "))
     lista_numeros.append(numero)
 
 pares, impares = pares_impares(lista_numeros)
