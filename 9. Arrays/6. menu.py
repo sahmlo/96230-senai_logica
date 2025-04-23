@@ -11,7 +11,7 @@ def adicionar_prato(pratos_escolhidos, prato, preco, soma):
         soma += preco
         return pratos_escolhidos, soma
         
-print("My Restaurant clt")
+print("Welcome My Restaurant")
  
 while True:
     opcao = int(input("""
@@ -47,9 +47,10 @@ Digite a opção desejada: """))
     continuar = input("Deseja informa outro prato? (S/N): ").lower()
     if continuar == "n":
         break
-
+    os.system("clear")
 
 print(f"\nDetalhes do pedido\n")
 for i, prato in enumerate(pratos_escolhidos, 1):
     print(f"{i} - {prato}")
-print(f"\nTotal: R$ {soma:.2f}")  
+print(f"\nTotal: R$ {soma:.2f}")
+print("Agradeçemos a preferêrencia!")
