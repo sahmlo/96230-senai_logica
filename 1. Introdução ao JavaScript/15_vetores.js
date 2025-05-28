@@ -16,3 +16,7 @@ console.log(frutas)
 console.log('\nRemovendo o último elemento do vetor.')
 frutas.pop()
 console.log(frutas)
+
+console.log('\nRemovendo o primeiro elemento do vetor.')
+frutas.shift()
+console.log(frutas)
