@@ -20,3 +20,9 @@ console.log(frutas)
 console.log('\nRemovendo o primeiro elemento do vetor.')
 frutas.shift()
 console.log(frutas)
+
+console.log('\nPercorrendo o vetor')
+frutas.forEach((frutas, index) => {
+    console.log(`${++index}: ${frutas}`) 
+})
+// "++" depois de index, irá apresentar o valor e acrescentar depois
