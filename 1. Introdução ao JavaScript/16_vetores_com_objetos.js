@@ -1,4 +1,4 @@
-// Objetos
+// Objetos 
 const usuarios = [
     {nome: 'Ana', idade: 25},
     {nome: 'Marta', idade: 32},
@@ -31,6 +31,5 @@ const usuarioEncontrado = usuarios.find(usuario => usuario.nome === 'Marta')
 console.log(`Nome: ${usuarioEncontrado.nome}, idade: ${usuarioEncontrado.idade}`)
 
 console.log('\nMostra a soma de todas as idades.')
-const somaIdades = usuarios.reduce((total, usuario) => total + usuario,idade, 0)
+const somaIdades = usuarios.reduce((total, usuario) => total + usuario.idade, 0)
 console.log(`Total: ${somaIdades}`)
-
