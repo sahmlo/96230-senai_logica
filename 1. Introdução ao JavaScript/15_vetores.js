@@ -25,4 +25,3 @@ console.log('\nPercorrendo o vetor')
 frutas.forEach((frutas, index) => {
     console.log(`${++index}: ${frutas}`) 
 })
-// "++" depois de index, irá apresentar o valor e acrescentar depois

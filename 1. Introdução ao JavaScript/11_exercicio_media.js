@@ -13,4 +13,3 @@ for (let i=1; i <= 2; i++)  {
 
 media = soma / 2
 console.log(`Média: ${media}`)
-
