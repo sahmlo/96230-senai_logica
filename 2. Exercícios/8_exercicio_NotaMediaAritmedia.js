@@ -1,11 +1,12 @@
 // Exercício
+console.clear()
 
 const readline = require('readline-sync');
 
 const listaDeNotas = [];
 
 for (let i = 1; i <= 3; i++) {
-  let nota = readline.questionFloat(`Digite a ${i}a nota: `);
+  let nota = readline.questionFloat(`Digite sua nota: `);
   listaDeNotas.push(nota);
 }
 
